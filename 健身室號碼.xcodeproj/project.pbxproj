@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088A494028C088E0006612D8 /* NumberPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A493F28C088E0006612D8 /* NumberPickerApp.swift */; };
+		088A494228C088E0006612D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A494128C088E0006612D8 /* ContentView.swift */; };
+		088A494428C088E2006612D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088A494328C088E2006612D8 /* Assets.xcassets */; };
+		088A494728C088E2006612D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088A494628C088E2006612D8 /* Preview Assets.xcassets */; };
+		088A494928C088E2006612D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A494828C088E2006612D8 /* Persistence.swift */; };
+		088A494C28C088E2006612D8 /* NumberPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 088A494A28C088E2006612D8 /* NumberPicker.xcdatamodeld */; };
+		088A495628C088E2006612D8 /* NumberPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A495528C088E2006612D8 /* NumberPickerTests.swift */; };
+		088A496028C088E2006612D8 /* NumberPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A495F28C088E2006612D8 /* NumberPickerUITests.swift */; };
+		088A496228C088E2006612D8 /* NumberPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A496128C088E2006612D8 /* NumberPickerUITestsLaunchTests.swift */; };
+		088A496F28C0892D006612D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A496E28C0892D006612D8 /* Home.swift */; };
+		088A497128C08BAC006612D8 /* NumPickModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A497028C08BAC006612D8 /* NumPickModal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088A495228C088E2006612D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088A493428C088E0006612D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088A493B28C088E0006612D8;
+			remoteInfo = NumberPicker;
+		};
+		088A495C28C088E2006612D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088A493428C088E0006612D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088A493B28C088E0006612D8;
+			remoteInfo = NumberPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088A493C28C088E0006612D8 /* 健身室號碼.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "健身室號碼.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088A493F28C088E0006612D8 /* NumberPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerApp.swift; sourceTree = "<group>"; };
+		088A494128C088E0006612D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		088A494328C088E2006612D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		088A494628C088E2006612D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		088A494828C088E2006612D8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		088A494B28C088E2006612D8 /* NumberPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NumberPicker.xcdatamodel; sourceTree = "<group>"; };
+		088A495128C088E2006612D8 /* 健身室號碼Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "健身室號碼Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088A495528C088E2006612D8 /* NumberPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerTests.swift; sourceTree = "<group>"; };
+		088A495B28C088E2006612D8 /* 健身室號碼UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "健身室號碼UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088A495F28C088E2006612D8 /* NumberPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerUITests.swift; sourceTree = "<group>"; };
+		088A496128C088E2006612D8 /* NumberPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		088A496E28C0892D006612D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		088A497028C08BAC006612D8 /* NumPickModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumPickModal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088A493928C088E0006612D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088A494E28C088E2006612D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088A495828C088E2006612D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088A493328C088E0006612D8 = {
+			isa = PBXGroup;
+			children = (
+				088A493E28C088E0006612D8 /* NumberPicker */,
+				088A495428C088E2006612D8 /* NumberPickerTests */,
+				088A495E28C088E2006612D8 /* NumberPickerUITests */,
+				088A493D28C088E0006612D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088A493D28C088E0006612D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088A493C28C088E0006612D8 /* 健身室號碼.app */,
+				088A495128C088E2006612D8 /* 健身室號碼Tests.xctest */,
+				088A495B28C088E2006612D8 /* 健身室號碼UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088A493E28C088E0006612D8 /* NumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				088A493F28C088E0006612D8 /* NumberPickerApp.swift */,
+				088A494128C088E0006612D8 /* ContentView.swift */,
+				088A496E28C0892D006612D8 /* Home.swift */,
+				088A497028C08BAC006612D8 /* NumPickModal.swift */,
+				088A494328C088E2006612D8 /* Assets.xcassets */,
+				088A494828C088E2006612D8 /* Persistence.swift */,
+				088A494A28C088E2006612D8 /* NumberPicker.xcdatamodeld */,
+				088A494528C088E2006612D8 /* Preview Content */,
+			);
+			path = NumberPicker;
+			sourceTree = "<group>";
+		};
+		088A494528C088E2006612D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				088A494628C088E2006612D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		088A495428C088E2006612D8 /* NumberPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				088A495528C088E2006612D8 /* NumberPickerTests.swift */,
+			);
+			path = NumberPickerTests;
+			sourceTree = "<group>";
+		};
+		088A495E28C088E2006612D8 /* NumberPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				088A495F28C088E2006612D8 /* NumberPickerUITests.swift */,
+				088A496128C088E2006612D8 /* NumberPickerUITestsLaunchTests.swift */,
+			);
+			path = NumberPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088A493B28C088E0006612D8 /* 健身室號碼 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088A496528C088E2006612D8 /* Build configuration list for PBXNativeTarget "健身室號碼" */;
+			buildPhases = (
+				088A493828C088E0006612D8 /* Sources */,
+				088A493928C088E0006612D8 /* Frameworks */,
+				088A493A28C088E0006612D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "健身室號碼";
+			productName = NumberPicker;
+			productReference = 088A493C28C088E0006612D8 /* 健身室號碼.app */;
+			productType = "com.apple.product-type.application";
+		};
+		088A495028C088E2006612D8 /* 健身室號碼Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088A496828C088E2006612D8 /* Build configuration list for PBXNativeTarget "健身室號碼Tests" */;
+			buildPhases = (
+				088A494D28C088E2006612D8 /* Sources */,
+				088A494E28C088E2006612D8 /* Frameworks */,
+				088A494F28C088E2006612D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088A495328C088E2006612D8 /* PBXTargetDependency */,
+			);
+			name = "健身室號碼Tests";
+			productName = NumberPickerTests;
+			productReference = 088A495128C088E2006612D8 /* 健身室號碼Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		088A495A28C088E2006612D8 /* 健身室號碼UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088A496B28C088E2006612D8 /* Build configuration list for PBXNativeTarget "健身室號碼UITests" */;
+			buildPhases = (
+				088A495728C088E2006612D8 /* Sources */,
+				088A495828C088E2006612D8 /* Frameworks */,
+				088A495928C088E2006612D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088A495D28C088E2006612D8 /* PBXTargetDependency */,
+			);
+			name = "健身室號碼UITests";
+			productName = NumberPickerUITests;
+			productReference = 088A495B28C088E2006612D8 /* 健身室號碼UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088A493428C088E0006612D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					088A493B28C088E0006612D8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					088A495028C088E2006612D8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 088A493B28C088E0006612D8;
+					};
+					088A495A28C088E2006612D8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 088A493B28C088E0006612D8;
+					};
+				};
+			};
+			buildConfigurationList = 088A493728C088E0006612D8 /* Build configuration list for PBXProject "健身室號碼" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088A493328C088E0006612D8;
+			productRefGroup = 088A493D28C088E0006612D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088A493B28C088E0006612D8 /* 健身室號碼 */,
+				088A495028C088E2006612D8 /* 健身室號碼Tests */,
+				088A495A28C088E2006612D8 /* 健身室號碼UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088A493A28C088E0006612D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088A494728C088E2006612D8 /* Preview Assets.xcassets in Resources */,
+				088A494428C088E2006612D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088A494F28C088E2006612D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088A495928C088E2006612D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088A493828C088E0006612D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088A494C28C088E2006612D8 /* NumberPicker.xcdatamodeld in Sources */,
+				088A494928C088E2006612D8 /* Persistence.swift in Sources */,
+				088A496F28C0892D006612D8 /* Home.swift in Sources */,
+				088A497128C08BAC006612D8 /* NumPickModal.swift in Sources */,
+				088A494228C088E0006612D8 /* ContentView.swift in Sources */,
+				088A494028C088E0006612D8 /* NumberPickerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088A494D28C088E2006612D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088A495628C088E2006612D8 /* NumberPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088A495728C088E2006612D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088A496028C088E2006612D8 /* NumberPickerUITests.swift in Sources */,
+				088A496228C088E2006612D8 /* NumberPickerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088A495328C088E2006612D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088A493B28C088E0006612D8 /* 健身室號碼 */;
+			targetProxy = 088A495228C088E2006612D8 /* PBXContainerItemProxy */;
+		};
+		088A495D28C088E2006612D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088A493B28C088E0006612D8 /* 健身室號碼 */;
+			targetProxy = 088A495C28C088E2006612D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		088A496328C088E2006612D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088A496428C088E2006612D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088A496628C088E2006612D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 88JQJLT29G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nope.NumberPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088A496728C088E2006612D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 88JQJLT29G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nope.NumberPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		088A496928C088E2006612D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JQJLT29G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nope.NumberPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/健身室號碼.app/健身室號碼";
+			};
+			name = Debug;
+		};
+		088A496A28C088E2006612D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JQJLT29G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nope.NumberPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/健身室號碼.app/健身室號碼";
+			};
+			name = Release;
+		};
+		088A496C28C088E2006612D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JQJLT29G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nope.NumberPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberPicker;
+			};
+			name = Debug;
+		};
+		088A496D28C088E2006612D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JQJLT29G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nope.NumberPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088A493728C088E0006612D8 /* Build configuration list for PBXProject "健身室號碼" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088A496328C088E2006612D8 /* Debug */,
+				088A496428C088E2006612D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088A496528C088E2006612D8 /* Build configuration list for PBXNativeTarget "健身室號碼" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088A496628C088E2006612D8 /* Debug */,
+				088A496728C088E2006612D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088A496828C088E2006612D8 /* Build configuration list for PBXNativeTarget "健身室號碼Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088A496928C088E2006612D8 /* Debug */,
+				088A496A28C088E2006612D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088A496B28C088E2006612D8 /* Build configuration list for PBXNativeTarget "健身室號碼UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088A496C28C088E2006612D8 /* Debug */,
+				088A496D28C088E2006612D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		088A494A28C088E2006612D8 /* NumberPicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				088A494B28C088E2006612D8 /* NumberPicker.xcdatamodel */,
+			);
+			currentVersion = 088A494B28C088E2006612D8 /* NumberPicker.xcdatamodel */;
+			path = NumberPicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 088A493428C088E0006612D8 /* Project object */;
+}
